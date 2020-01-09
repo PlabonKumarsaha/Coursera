@@ -1,3 +1,4 @@
 # Coursera
 
-Algorithmic Toolbox course works
+Algorithmic Toolbox course work.
+this was part of week one
