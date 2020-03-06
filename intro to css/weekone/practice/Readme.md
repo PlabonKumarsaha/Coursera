@@ -1,10 +1,12 @@
 Intro to CSS
 -first effort to make css..modified the final project of html5 couse and used it woth css
 
-Week_One :
-Contents<br>
--Display : inline,block,inline-block<br>
--float and clearing<br>
--overflow(visible,hidden,scroll,auto)- when the whole content doesn't fit<br>
--Display : Table,Grid,Flexbox<br>
--Visibility<br>
+<b>Week_One :</b><br>
+Contents : <br>
+<ul>
+<li>-Display : inline,block,inline-block</li>
+<li>-float and clearing</li>
+<li>-overflow(visible,hidden,scroll,auto)- when the whole content doesn't fit</li>
+<li>-Display : Table,Grid,Flexbox</li>
+<li>-Visibility</li>
+ </ul>
