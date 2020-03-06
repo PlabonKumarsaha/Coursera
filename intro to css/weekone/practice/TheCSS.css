@@ -7,17 +7,23 @@ body{
 
 header{
 	background: #666666;
+	font-size: 150%
 	text-align: center;
 }
+
+
 
 h1{
 	color: #ffffff;
 }
 
+
+
 nav{
-	font-variant: initial;
+	background-color: #22222f;
+	font-variant: small-caps;
 	font-family: Arial, "Times New Roman", serif;
-	font-size: 110%;
+	font-size: 150%;
 }
 
 h2{
@@ -27,7 +33,9 @@ h2{
 
 
 summary{
+
 	font-style:normal;
+	
 }
 
 details{
