@@ -1,0 +1,69 @@
+
+body{
+	background:#7FFFFF;
+	font-size: 120%;
+	margin: 4%;
+
+}
+
+header{
+	background: #577fff;
+	font-size: 150%
+	text-align: center;
+	/* Adding space between elements in the header*/
+	padding: 15px;
+}
+
+
+
+h1{
+	color: #ffffff;
+}
+
+
+
+nav{
+	background-color: #ff88f;
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+}
+
+h2{
+	color: #666666;
+	background: #00b7ea;
+}
+section {
+
+   width : 30%;
+   /* to keep all the elements side by side. only using this makes thing scabled */
+   display: inline-block;
+
+/* to keep all the elements side by side and keep the top most on the left most and down most on the rightmost */
+   float: left;
+
+   /*keep some distance between the things*/
+   margin-right: 2%;
+   
+}
+
+summary{
+
+	font-style: normal;
+
+}
+
+details{
+	font-style:  italic;
+}
+
+
+footer{
+	background: #666888;
+	/* excludes the floater from the section*/
+	clear :both;
+}
+
+img{
+	width: 100px;
+}
