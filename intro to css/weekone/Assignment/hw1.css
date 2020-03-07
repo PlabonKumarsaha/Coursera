@@ -1,0 +1,35 @@
+header{
+background-color: #ff7222;
+}
+
+h1{
+   color: #66FFFF; 
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Arial", Helvetica, sans-serif; 
+	font-size: 50px;
+}
+
+section {
+	background-color: #A9A9A9; /* DarkGray */
+}
+
+h2 {
+	color: #00008B; /* DarkBlue */
+	text-transform: uppercase; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 30px;
+}
+
+/* a elements should be centered and have a new font color and background color */
+a {
+	text-align: center;
+	color: #000000; /* Black */
+	background-color: #D3D3D3; /* LightGray */ 
+	font-family: Arial, Helvetica, serif;
+	font-weight: bold;
+}
+img{
+
+	display: none;
+}
