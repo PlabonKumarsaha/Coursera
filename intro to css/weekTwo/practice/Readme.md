@@ -14,4 +14,4 @@ contents
 * input:disabled Selects an element in the disabled state, by way of the disabled attribute
 * input:checked	Selects a checkbox or radio button that has been checked
 
-[Reference Link ](https://learn.shayhowe.com/advanced-html-css/complex-selectors/)
+[Reference Link ](https://learn.shayhowe.com/advanced-html-css/complex-selectors/) - For other contents
