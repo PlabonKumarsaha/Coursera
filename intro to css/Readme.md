@@ -15,13 +15,17 @@ contents
 * input:checked	Selects a checkbox or radio button that has been checked
 [Codepen link](https://codepen.io/collection/XGowWM/)
 
-## week-three
+## week_three
 
 * transition :2s ease - sooths the whole transaction of animation
 * box sizing -makes boxed sizing structure
 * webkit-transform, moz-transform,o-transform,
 * transition,rotate,Psudo element,transform
 [Codepen link](https://codepen.io/collection/AOLapY/)
+
+## Week_Four
+* Table styling - using span to make a text visible only when clicked
+* 
 
 
 [Reference Link ](https://learn.shayhowe.com/advanced-html-css/complex-selectors/) - For other contents
