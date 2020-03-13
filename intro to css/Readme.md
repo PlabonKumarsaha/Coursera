@@ -27,6 +27,9 @@ contents
 
 * Table styling - using span to make a text visible only when clicked
 * .Current - currely on what navitation
+* Opacity -Opacity means how much visible an element is..by default it is 1.if you decrease the value it becomes blurry
+* border-collapse
+
 
 
 [Reference Link ](https://learn.shayhowe.com/advanced-html-css/complex-selectors/) - For other contents
