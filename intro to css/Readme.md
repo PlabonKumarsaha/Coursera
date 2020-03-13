@@ -1,10 +1,10 @@
 # Intro to CSS3
-
-## Week_two
-
 ```
 contents
 ```
+
+## Week_two
+
 * a:link -Selects a link that has not been visited by a user
 * a:visited - Selects a link that has been visited by a user
 * a:hover - Selects an element when a user has hovered their cursor over it
@@ -24,6 +24,7 @@ contents
 [Codepen link](https://codepen.io/collection/AOLapY/)
 
 ## Week_Four
+
 * Table styling - using span to make a text visible only when clicked
 * 
 
