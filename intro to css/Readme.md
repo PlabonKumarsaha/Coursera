@@ -29,6 +29,7 @@ contents
 * .Current - currely on what navitation
 * Opacity -Opacity means how much visible an element is..by default it is 1.if you decrease the value it becomes blurry
 * border-collapse
+* Z index- Any image that has a z-index of -1, it will be placed behind the heading. The writting will be visible infront of the picture
 
 
 
