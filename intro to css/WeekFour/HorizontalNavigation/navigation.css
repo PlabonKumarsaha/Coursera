@@ -25,10 +25,12 @@ nav a{
 	border-radius: 25px;
 
 }
+/*highlights the navigation element that is being visisted */
 .current{
 	background-color:#800000;
 }
 
+/* hovering in a navigation lelemnet changes the boarder */
 nav a:hover{
 	color:#000000;
 	border-radius: 0;
