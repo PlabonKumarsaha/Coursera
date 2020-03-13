@@ -26,7 +26,7 @@ contents
 ## Week_Four
 
 * Table styling - using span to make a text visible only when clicked
-* 
+* .Current - currely on what navitation
 
 
 [Reference Link ](https://learn.shayhowe.com/advanced-html-css/complex-selectors/) - For other contents
