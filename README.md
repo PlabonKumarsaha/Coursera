@@ -7,5 +7,6 @@ this was part of week one!
 
 ## Introduction to HTML5
 ## Introduction to CSS3
+## Interactivity with JavaScript
 
 
