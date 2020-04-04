@@ -1,0 +1,90 @@
+PKS (master) Coursera_VersionControlGit $ cd ..
+PKS Coursera $ ls
+Coursera_VersionControlGit
+PKS Coursera $ mkdir temp_project
+PKS Coursera $ ls
+Coursera_VersionControlGit	temp_project
+PKS Coursera $ cd temp_project/
+PKS temp_project $ git init
+Initialized empty Git repository in /Users/PKS/Education/Coursera/temp_project/.git/
+PKS (master #) temp_project $ nano fileA.txt
+PKS (master #) temp_project $ ls
+fileA.txt
+PKS (master #) temp_project $ git add .
+PKS (master +) temp_project $ git commit -m "Pushing thr first portion of fileA.txt"
+[master (root-commit) 7671c5d] Pushing thr first portion of fileA.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fileA.txt
+PKS (master) temp_project $ git checkout -b "feature2"
+Switched to a new branch 'feature2'
+PKS (feature2) temp_project $ nano fileA.txt 
+PKS (feature2 *) temp_project $ 
+Display all 1623 possibilities? (y or n)
+PKS (feature2 *) temp_project $ 
+PKS (feature2 *) temp_project $ git add ./fileA.txt
+PKS (feature2 +) temp_project $ git commit -m "Changes were made on the feature2 branch"
+[feature2 ec71eab] Changes were made on the feature2 branch
+ 1 file changed, 1 insertion(+)
+PKS (feature2) temp_project $ git checkout master
+Switched to branch 'master'
+PKS (master) temp_project $ nano fileA.txt 
+PKS (master) temp_project $ 
+PKS (master) temp_project $ nano fileA.txt 
+PKS (master *) temp_project $ git add ./fileA.txt
+PKS (master +) temp_project $ git commit -m "Changes were made on fileA.txt -- should expect error when merging"
+[master 57b1e99] Changes were made on fileA.txt -- should expect error when merging
+ 1 file changed, 1 insertion(+)
+PKS (master) temp_project $ git merge feature2 
+Auto-merging fileA.txt
+CONFLICT (content): Merge conflict in fileA.txt
+Automatic merge failed; fix conflicts and then commit the result.
+PKS (master *+|MERGING) temp_project $ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   fileA.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PKS (master *+|MERGING) temp_project $ git merge --abort
+PKS (master) temp_project $ git status
+On branch master
+nothing to commit, working tree clean
+PKS (master) temp_project $ ls
+fileA.txt
+PKS (master) temp_project $ git merge --abort
+fatal: There is no merge to abort (MERGE_HEAD missing).
+PKS (master) temp_project $ git merge feature2 
+Auto-merging fileA.txt
+CONFLICT (content): Merge conflict in fileA.txt
+Automatic merge failed; fix conflicts and then commit the result.
+PKS (master *+|MERGING) temp_project $ nano fileA.txt 
+PKS (master *+|MERGING) temp_project $ get checkout feature2
+-bash: get: command not found
+PKS (master *+|MERGING) temp_project $ git checkout feature2
+fileA.txt: needs merge
+error: you need to resolve your current index first
+PKS (master *+|MERGING) temp_project $ nano fileA.txt 
+PKS (master *+|MERGING) temp_project $ y
+-bash: y: command not found
+PKS (master *+|MERGING) temp_project $ git add ./fileA.txt
+PKS (master +|MERGING) temp_project $ git commit -m "fileA.txt was fixed"
+[master 2752c8e] fileA.txt was fixed
+PKS (master) temp_project $ git commit -m "fileA.txt was made"
+On branch master
+nothing to commit, working tree clean
+PKS (master) temp_project $ cd ..
+PKS Coursera $ ls
+Coursera_VersionControlGit	temp_project
+PKS Coursera $ cd Coursera_VersionControlGit/
+PKS (master) Coursera_VersionControlGit $ ls
+00_DevOpsGitNutshell.ipynb	02_BranchesAndMergining.ipynb	README.md			images
+01_OurFirstRepository.ipynb	03_BranchesAndMerginingII.ipynb	assignments			labs
+PKS (master) Coursera_VersionControlGit $ cd assignments/
+PKS (master) assignments $ ls
+assignment_lab08.txt
+PKS (master) assignments $
