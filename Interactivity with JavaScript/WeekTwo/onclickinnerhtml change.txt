@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8">
+	  <title>PKS</title>
+	  <!-- ADD a LINK TO YOUR STYLE SHEET HERE!! -->
+</head>
+<body>
+  <h1>Inner html click</h1>
+	 <button onclick="document.getElementById('stuff').innerHTML='Clicked first button!';">First</button>
+   <button onclick="document.getElementById('stuff').innerHTML='Clicked second button!';">Second</button>
+  
+  <p>first paragraph</p>
+  <p id ="stuff">second paragraph</p>
+  <p>third paragraph</p>
+  
+  
+  
+  
+  
+</body>
+</html>
