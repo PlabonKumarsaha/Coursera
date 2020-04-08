@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title></title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script  src="js/javaFunction.js"></script>
+
+</head>
+<body onload="setDate()" >
+
+	<p> The current date is <span id = "date"></span></p>
+
+	<script type="text/javascript">document.write("Hello World");</script> 
+
+</body>
+</html>
+
+<script type="text/javascript">
+	
+function setDate(){
+  document.getElementById('date').innerHTML=Date();
+}
+
+</script>
+
+<style>
+
+body{
+  background-color:#eecc00;
+  margin:15px;
+}
+
+	h1{
+	color: #ffffff;
+}
+</style>
+
+
