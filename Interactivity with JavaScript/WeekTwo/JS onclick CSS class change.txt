@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8">
+	  <title>PKS</title>
+	  <!-- ADD a LINK TO YOUR STYLE SHEET HERE!! -->
+</head>
+<body>
+  <h1>Onclick  html Event</h1>
+	 <button type="button" onclick="openMe()">Open</button>
+   <button type="button" onclick="closeMe()">Close</button>
+  
+  
+  <p id ="demo">Extra details..you can open or close this paragraph using buttons above</p>
+  
+</body>
+</html>
+
+<style>
+
+.closed{
+  
+  display : none;
+}
+
+.open{
+  
+  display : block;
+}
+button{
+  width: 100px;
+  padding : 10px;
+  background-color: #00CCEE;
+  
+}
+</style>
+
+
+<script>
+
+function closeMe(){
+  //find the element
+  x=document.getElementById("demo");
+  // option1 :change the style attribute,maually
+//  x.style.display="none";
+  //option2: change the class
+  x.className="closed";
+}
+
+function openMe(){
+   //find the element
+  x=document.getElementById("demo");
+  //opt1:change style attrinute ,manually
+  //x.style.display="block";
+  //opt2: change the class
+  x.className="open";
+  
+}
+
+
+
+</script>
+
