@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8">
+	  <title>PKS</title>
+	
+</head>
+<body onload="loadFruits()">
+  
+<button onclick="myFunction()">add your favourite</button>
+  <p id="fruits"></p>
+	 
+</body>
+</html>
+
+<script>
+
+var fruits =["Banana","Orange","Apple","Mango"];
+
+function loadFruits(){
+  
+  document.getElementById("fruits").innerHTML = fruits;
+  
+}
+function myFunction(){
+  var fruit = prompt("What is your fav fruit?");
+  fruits[fruits.length]= fruit;
+  
+ document.getElementById("fruits").innerHTML = fruits;  
+  
+}
+
+</script>
