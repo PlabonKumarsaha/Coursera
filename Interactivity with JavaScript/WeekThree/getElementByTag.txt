@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8">
+	  <title>PKS</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8">
+	  <title>PKS</title>
+	
+</head>
+<body onload="loadFruits()">
+  
+<p>First paragraph</p>
+  
+	<p>Second paragraph</p>
+  
+  <p>Third paragraph</p>
+  
+  <p>Fourth paragraph</p>
+  
+</body>
+</html>
+
+
+<script>
+
+  document.getElementByTagName("p")[1].innerHTML = "change the seccond one"
+</script>
