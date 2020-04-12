@@ -44,20 +44,25 @@ input{
 
 function billingFunction(){
   
+ /*Add the JavaScript here for the function billingFunction().  It is responsible for setting and clearing the fields in Billing Information */
+
+function billingFunction(){
+  
   	if (same.checked){
       var sname =  document.getElementById("shippingName").value;//this will copy the value entered by the user in shipping name block
       var sZip = document.getElementById("shippingZip").value;
       
       //billing details
-      var bName = document.getElementById("billingName").value;
-      var bZip = document.getElementById("billingZip").value;
+   document.getElementById("billingName").value =sname;
+  
+   document.getElementById("billingZip").value=sZip;
       
       
-   
-		}else{
+  	}else{
       
-           var sname =  document.getElementById("shippingName").value;//this will copy the value entered by the user in shipping name block
-      var sZip = document.getElementById("shippingZip").value;
+           var sname =  document.getElementById("shippingName").value =" ";//this will copy the value entered by the user in shipping name block
+      var sZip = document.getElementById("shippingZip").value="";
     }
+}
 }
 </script>
