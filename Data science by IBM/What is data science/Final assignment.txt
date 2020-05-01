@@ -1,0 +1,20 @@
+Based on the videos and the reading material, how would you define a data scientist and data science? (3 marks)
+=>data scientists work with data. They get big data that has enough velocity and volume to generate a decision out of the data. They try to tell a story with the data they are given A data scientist is curious, know how to code; visual storyteller. Data science is the work that a data scientist. 
+
+Data Scientists are a new class of analytical data experts who have the skills to solve complex problems – and the curiosity to explore what problems need to be solved. Data scientists need to be curious, judgmental and argumentative
+
+As discussed in the videos and the reading material, data science can be applied to problems across different industries. What industry are you passionate about and would like to pursue a data science career in?
+=>Basically every major industry has a problem that can be solved with collecting data and come up with different solutions from the data. Industries like corporate industries, Banking, financial institutions, sports teams, etc.
+
+Based on the videos and the reading material, what are the ten main components of a report that would be delivered at the end of a data science project?
+
+=>1.Cover page
+2. The cover page should have name of the authors and other relevant information to contact the author in case of clarifications.
+3.Table of content
+4.Introductory: Section where the problem, purpose, and solution are explained briefly, giving an overview of the project.
+5.Methodology: research method and data collection links
+6.Result: show a visual representation of the collected data.
+7.Discussion: This is where the conclusions from the result are used to present the narrative to communicate the thesis efficiently.
+8.Conclusion: suggest how the result can be used in real-life scenarios and further work to be conducted with this.
+9.References: The housekeeping work for the research paper.
+10.Acknowledgment:  Recognizing the contribution of other individuals to the research
