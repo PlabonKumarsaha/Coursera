@@ -1,0 +1,14 @@
+RGB = imread('image1.jpg');
+redChannel = RGB(:,:,1); %Red channel
+imshow(redChannel)
+greenChannel = RGB(:,:,2);%green channel
+imshow(greenChannel)
+blueChannel = RGB(:,:,3);%blue channel
+imshow(blueChannel)
+% Create an all black channel.
+allBlack = zeros(size(RGB, 1), size(RGB, 2), 'uint8')
+imshow(allBlack)
+%HSV image
+hsvImage = rgb2hsv(RGB);
+imshow(hsvImage)
+
